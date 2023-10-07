@@ -9,6 +9,10 @@
   text-decoration: none;
 }
 
+:root {
+  --brand-color: #2e2f42;
+}
+
 .section {
 }
 
@@ -76,12 +80,25 @@
   font-size: 56px;
   font-style: normal;
   font-weight: 700;
-  line-height: 60px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
 }
 .hero-btn {
+  color: #ffffff;
   background: var(--IRIS, #4d5ae5);
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
 }
 
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: #404bbf;
+}
 /* Main styles */
 
 .feature {
@@ -134,4 +151,6 @@
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
