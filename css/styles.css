@@ -109,10 +109,15 @@
   font-size: 36px;
   font-style: normal;
   font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
 }
 .main-list {
 }
 .main-item {
+  background: var(--WHITE, #ffffff);
 }
 .image-title {
   color: var(--NAVY-BLUE, #2e2f42);
@@ -120,8 +125,11 @@
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 .our-team {
+  background: var(--CLOUD, #f4f4fd);
 }
 .main-images {
 }
@@ -131,6 +139,8 @@
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 .our-portfolio {
 }
